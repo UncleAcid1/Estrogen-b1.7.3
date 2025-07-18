@@ -12,7 +12,7 @@
     "stationapi:event_bus": [
       "net.unkleacid.estrogen.Estrogen"
     ],
-    "stationapi:event_bus_client": [],
+    "stationapi:event_bus_client": ["net.unkleacid.estrogen.client.EstrogenClient"],
     "stationapi:event_bus_server": []
   },
   "mixins": [ "estrogen.mixins.json" ],

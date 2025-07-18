@@ -22,10 +22,4 @@ public class Estrogen {
         ESTROGEN = new CustomEstrogenFoodItem(NAMESPACE.id("estrogen"), 420, false)
                 .setTranslationKey(NAMESPACE, "estrogen");
     }
-
-    @EventListener
-    public void registerTextures(TextureRegisterEvent event) {
-        ExpandableAtlas atlas = Atlases.getGuiItems();
-        atlas.addTexture(NAMESPACE.id("estrogen"));
-    }
 }
