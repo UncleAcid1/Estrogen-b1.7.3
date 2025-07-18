@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " d ",
+    "dgd",
+    " d "
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:sugar"
+    },
+    "g": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "estrogen:estrogen",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "package": "net.unkleacid.estrogen.mixin",
+  "mixins": [],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

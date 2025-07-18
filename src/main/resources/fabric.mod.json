@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "estrogen",
+  "version": "${version}",
+  "name": "Estrogen",
+  "description": "Adds a little Estrogen pill for you take :3",
+  "authors": [ "UnkleAcid" ],
+  "license": "MIT",
+  "icon": "assets/estrogen/stationapi/Icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "stationapi:event_bus": [
+      "net.unkleacid.estrogen.Estrogen"
+    ],
+    "stationapi:event_bus_client": [],
+    "stationapi:event_bus_server": []
+  },
+  "mixins": [ "estrogen.mixins.json" ],
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
